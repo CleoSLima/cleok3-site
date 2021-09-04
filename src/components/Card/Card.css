@@ -1,0 +1,35 @@
+.cardWrapper {
+  border: 5px solid #fff;
+  margin: 33vh 33%;
+  max-width: 600px;
+  border-radius: 24px;
+  background-color: #FFD1DC;
+  padding: 2.5rem;
+}
+
+.cardTitle {
+  text-align: center;
+}
+
+.cardInfo {
+  list-style: none;
+}
+
+.socialsWrapper {
+  text-align: center;
+}
+
+.socialsWrapper > a > svg {
+  font-size: 2rem;
+  margin: 1rem;
+  color: black;
+  padding: 5px;
+
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
+.socialsWrapper > a > svg:hover{
+  background-color: #9dbefc;
+  transition: ease 1s;
+}

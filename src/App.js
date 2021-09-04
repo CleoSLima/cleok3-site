@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+library.add(fab)
+
 function App() {
   return (
     <div className="App">

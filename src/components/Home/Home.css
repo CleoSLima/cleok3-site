@@ -1,0 +1,16 @@
+body {
+  overflow: hidden;
+  background-color: #131516;
+}
+
+
+@media only screen and (max-width:768px){
+  .homeWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+  }
+}
